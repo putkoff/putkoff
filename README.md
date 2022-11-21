@@ -1,7 +1,7 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left"><a href="https://www.linkedin.com/in/john-putkey-78a43b11/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="" height="30" width="40" /></a></p>
 <h1 align="center">Hi 👋, I'm John</h1>
-<h3 align="center">I Am proficient in making niche tools Mainly via python and solidity.</h3>
+<h3 align="center">niche tools: python | solidity | React | Javascript | PHP</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=putkoff&label=Profile%20views&color=0e75b6&style=flat" alt="putkoff" /> </p>
 
@@ -19,8 +19,6 @@
 <p align="left">
 <a href="https://linkedin.com/in/john-putkey" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="john-putkey" height="30" width="40" /></a>
 </p>
-
-
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=putkoff&show_icons=true&locale=en&layout=compact" alt="putkoff" /></p>
 
