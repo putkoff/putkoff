@@ -2,7 +2,7 @@
 <h1 align="center">python | solidity | React | Javascript | PHP</h1>
 
 
-<h1 class="row" align="center" > <div> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=putkoff" alt="putkoff" />
+<h1 class="row" align="center" > <div> <a href="https://github.com/putkoff/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=putkoff" alt="putkoff" />
   <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=putkoff&theme=highcontrast" alt="putkoff" /></div></a></h1>
 
 
