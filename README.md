@@ -19,7 +19,7 @@ I optimize for systems that remain understandable, debuggable, and trustworthy a
 
 ### **SolCatcher**
 Real-time Solana market-data infrastructure for log ingestion, deterministic decoding, staged persistence, and fault-isolated processing.  
-[Repo](https://github.com/AbstractEndeavors/solcatcher) · [API](https://api.solcatcher.io) · [Explorer](https://solcatcher.io/)
+[Repo](https://github.com/AbstractEndeavors/solcatcher) 
 
 ### **abstract_solana**
 Schema-driven Python SDK for Solana JSON-RPC with typed body builders, PostgreSQL/JSONB caching, rate limiting, RPC fallback, and PumpFun curve utilities.  
