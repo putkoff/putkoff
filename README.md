@@ -1,11 +1,97 @@
+# putkoff · Abstract Endeavors
 
-<h1 align="center">python | solidity | React | Javascript | PHP</h1>
+> Systems for markets, media, and models — built to stay legible under pressure.
 
+---
 
-<h1 class="row" align="center" > <div> 
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=putkoff&theme=highcontrast" alt="putkoff" /></div></a></h1>
+## Approach
 
-<a href=#><img src="contributions.svg"></a>
+- **Schemas over ad-hoc objects**
+- **Registries over globals**
+- **Queues over callbacks**
+- **Explicit wiring over ambient configuration**
 
+I optimize for systems that remain understandable, debuggable, and trustworthy after they’ve grown large enough to matter.
 
-<h6 class="row" align="center" ><img src="https://komarev.com/ghpvc/?username=putkoff&label=Profile%20views&color=0e75b6&style=flat" alt="putkoff" /><p margin="auto"></h6><img align="right" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="john-putkey" height="30" width="40" /></a></p> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://www.selenium.dev" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" alt="selenium" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> <a href="https://unrealengine.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/kenangundogan/fontisto/036b7eca71aab1bef8e6a0518f7329f13ed62f6b/icons/svg/brand/unreal-engine.svg" alt="unreal" width="40" height="40"/> </a> <a href="https://zapier.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/zapier/zapier-icon.svg" alt="zapier" width="40" height="40"/> </a> </p>
+---
+
+## Systems
+
+### **SolCatcher**
+Real-time Solana market-data infrastructure for log ingestion, deterministic decoding, staged persistence, and fault-isolated processing.  
+[Repo](https://github.com/AbstractEndeavors/solcatcher) · [API](https://api.solcatcher.io) · [Explorer](https://solcatcher.io/)
+
+### **abstract_solana**
+Schema-driven Python SDK for Solana JSON-RPC with typed body builders, PostgreSQL/JSONB caching, rate limiting, RPC fallback, and PumpFun curve utilities.  
+[Repo](https://github.com/AbstractEndeavors/abstract_solana)
+
+```python
+from abstract_solana.abstract_rpcs import abstract_solana_rate_limited_call
+from abstract_solana.pumpFun import derive_bonding_curve_accounts, isOnCurve
+
+balance = abstract_solana_rate_limited_call("getBalance", pubkey="YourWalletHere")
+
+if isOnCurve(mint):
+    accounts = derive_bonding_curve_accounts(mint)
+````
+
+### **EthCatcher / PutNodeContracts**
+
+On-chain financial infrastructure across swap execution, liquidity interaction, deterministic fee accounting, asset lifecycle tracking, and incentive-driven protocol mechanics.
+[EthCatcher](https://ethcatcher.io/) · [Contracts](https://github.com/putkoff/PuTnodeContracts)
+
+### **abstract-media-intelligence**
+
+A modular media intelligence platform for turning PDFs, images, and video into searchable, structured, SEO-ready datasets.
+[Platform](https://github.com/AbstractEndeavors/abstract-media-intelligence)
+
+| Module                                                                  | Function                                       |
+| ----------------------------------------------------------------------- | ---------------------------------------------- |
+| [abstract_hugpy](https://github.com/AbstractEndeavors/abstract_hugpy)   | Summarization, keywords, metadata, refinement  |
+| [abstract_pdfs](https://github.com/AbstractEndeavors/abstract-pdfs)     | PDF decomposition, manifests, HTML publishing  |
+| [abstract_videos](https://github.com/AbstractEndeavors/abstract-videos) | Video ingestion, transcription, frame analysis |
+| [abstract_ocr](https://github.com/AbstractEndeavors/abstract-ocr)       | Layout-aware OCR and structured extraction     |
+
+### **abstract_shapes**
+
+GeoJSON-based spatial filtering and proximity-driven targeting for deterministic lead qualification and geographic decision systems.
+[Repo](https://github.com/AbstractEndeavors/abstract_shapes) · [Live](https://abstractendeavors.com/maps)
+
+### **Solar Simulation**
+
+Physics simulation for trajectory modeling, orbital interaction, and system analysis in dynamic gravitational environments.
+[Live](https://abstractendeavors.com/SolarSimulation) · [Repo](https://github.com/AbstractEndeavors/abstract-solar-sim)
+
+### **CalcIt**
+
+Typed interface for math and physics APIs with live evaluation, unit-aware inputs, and direct endpoint exploration.
+[Live](https://abstractendeavors.com/calcit) · [API](https://math.abstractendeavors.com/endpoints)
+
+### **Loan Payoff Calculator**
+
+Debt modeling and payoff analysis.
+[Live](https://abstractendeavors.com/loans)
+
+### **Debt & Inflation Calculator**
+
+Scenario-based debt and inflation analysis.
+[Live](https://abstractendeavors.com/debt)
+
+---
+
+## Stack
+
+`Python` · `TypeScript` · `PostgreSQL / JSONB` · `Solana / solders` · `JSON-RPC` · `HuggingFace` · `GeoJSON` · `Solidity / EVM`
+
+---
+
+## Network
+
+[abstractendeavors.com](https://abstractendeavors.com)
+[thedailydialectics.com](https://thedailydialectics.com)
+[clownworld.biz](https://clownworld.biz/)
+[solcatcher.io](https://solcatcher.io/)
+[ethcatcher.io](https://ethcatcher.io/)
+[jrputkey.com](https://jrputkey.com/)
+[partners@abstractendeavors.com](mailto:partners@abstractendeavors.com)
+
